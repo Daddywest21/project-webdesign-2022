@@ -35,7 +35,7 @@
 }
 .active, .navbar ul li:hover
 {
-    background: #009688;
+    background: #3169a8;
     border: 3px;
 
 }
@@ -48,7 +48,7 @@
 .navbar ul li:hover .sub-navbar-1 {
      display: block;
      position: absolute;
-     background: rgb(0,100,0);
+     background: rgb(19, 101, 148);
      margin-top: 15px;
      margin-left: -15px
 }
@@ -71,7 +71,7 @@
       border-bottom: none;
 }
 .navbar ul li:hover .sub-navbar-1 ul li a:hover{
-  color: #009688;
+  color: #234796;
 
 }
 
@@ -80,7 +80,7 @@
      content: '';
      height: 3px;
      width: 0;
-     background: #009688;
+     background: #29479b;
      position: absolute;
      left: 0;
      bottom:-10px;
@@ -116,7 +116,7 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #009688;
+    border: 2px solid #2165ca;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -125,7 +125,7 @@ button{
 }
 
 span{
-  background: #009688;
+  background: #2165ca;
   height: 100%;
   width: 0%;
   border-radius: 25px;

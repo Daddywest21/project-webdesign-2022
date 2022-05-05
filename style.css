@@ -1,0 +1,19 @@
+.logo {
+  width: 300px;
+  cursor: pointer;
+  position: left;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(image/Kopie\ van\ BF8A9DC5-524A-4431-BD42-013446B75604.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image {
+  width: 250px;
+  cursor: pointer;
+  position: left;
+}

@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 body {
-    background: #212121;
+    background: #3f6eac;
     font-size: 22px;
     line-height: 32px;
     color: #ffffff;
@@ -36,7 +36,7 @@ a {
 }
 
 h1 {
-    margin-top: 100px;
+    margin-top: -12px;
     text-align: center;
     font-size: 60px;
     line-height: 70px;
@@ -61,7 +61,7 @@ p {
 nav {
     margin: 0;
     padding: 0;
-    background-color: #254441;
+    background-color: #3f6eac;
 }
 
 #logo {
@@ -96,7 +96,7 @@ nav ul li {
     margin: 0px;
     display: inline-block;
     float: left;
-    background-color: #254441;
+    background-color: #3f6eac;
 }
 
 /* Styling the links */
@@ -110,12 +110,12 @@ nav a {
 
 
 nav ul li ul li:hover {
-    background: #000000;
+    background: #3f6eac;
 }
 
 /* Background color change on Hover */
 nav a:hover {
-    background-color: #000000;
+    background-color: #3f6eac;
 }
 
 /* Hide Dropdowns by Default
@@ -189,7 +189,7 @@ li>a:only-child:after {
     /* Stylinf the toggle lable */
     .toggle {
         display: block;
-        background-color: #254441;
+        background-color: #234d6e;
         padding: 14px 20px;
         color: #FFF;
         font-size: 17px;
@@ -198,7 +198,7 @@ li>a:only-child:after {
     }
 
     .toggle:hover {
-        background-color: #000000;
+        background-color: #137de0;
     }
 
     /* Display Dropdown when clicked on Parent Lable */

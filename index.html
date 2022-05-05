@@ -1,83 +1,66 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Jan Portaels Academie </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Portaels</title>
+    <link rel="stylesheet" href="menu.css"><!-- dont change except colors / font family -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
-font-awesome/5.15.2/css/all.min.css"/>
 </head>
-
 <body>
-    <div class="banner">
-        <div class="navbar">
-            <img src="image/logo.png" class="logo">
-            <ul>
-                <li class="active"><a href="#"><i class="fa fa-Home"></i> Home </a>
-                </li>
-                <li><a href="#"><i class="fa fa-user"></i> ATELIER</a>
-                    <div class="sub-navbar-1">
+    <nav>
+        <div id="logo">Your Logo here</div>
+    
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle">WordPress +</label>
+                <a href="#">WordPress</a>
+                <input type="checkbox" id="drop-1" />
+                <ul>
+                    <li><a href="#">Themes and stuff</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                </ul>
+    
+            </li>
+            <li>
+    
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Web Design +</label>
+                <a href="#">Web Design</a>
+                <input type="checkbox" id="drop-2" />
+                <ul>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li>
+    
+                        <!-- Second Tier Drop Down -->
+                        <label for="drop-3" class="toggle">Tutorials +</label>
+                        <a href="#">Tutorials</a>
+                        <input type="checkbox" id="drop-3" />
+    
                         <ul>
-                            <li><a href="#">BEELDATELIER VOOR KINDEREN</a></i>
-                            </li>
-                            <li><a href="#">BEELDATELIER VOOR JONGEREN</a></i>
-                            </li>
-                            <li><a href="#">OPLEIDINGEN VOOR VOLWASSEN</a></i>
-                            </li>
-                            <li><a href="#">VOOR IEDEREEN + 18 graag 4 </a></i>
-                            </li>
-                            <li><a href="#">OPLEIDINGEN VOOR VOLWASSEN</a></i>
-                            </li>
+                            <li><a href="#">HTML/CSS</a></li>
+                            <li><a href="#">jQuery</a></li>
+                            <li><a href="#">Other</a></li>
                         </ul>
-                    </div>
-                </li>
-                <li><a href="#"><i class="fa fa-clone"></i>KUNSTTHEORIE</a>
-                    <div class="sub-navbar-2">
-                        <ul>
-                            <li><a href="#">audiovisuele cultuur</a></i>
-                            </li>
-                            <li><a href="#">Cursus kunst en Cultuurfilosofie</a></i>
-                            </li>
-                            <li><a href="#">Volwassen</a></i>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i></a>
-                    <div class="sub-navbar-3">
-                        <ul>
-                            <li><a href="#">Adres en Contactgegevens</a></i>
-                            </li>
-                            <li><a href="#">Bereikbaarheid</a></i>
-                            </li>
-                            <li><a href="#">ligging</a></i>
-                            </li>
-                            <li><a href="#">Openingsuren secretariaat</a></i>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="#"></a><i class="fa fa-users"></i>
-                    <div class="sub-navbar-4">
-                        <ul>
-                            <li><a href="#">Beelden</a></i>
-                            </li>
-                            <li><a href="#">Jongeren</a></i>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="content">
-            <h1>ACADEMIE JAN PORTAELS</h1>
-            <p>HET ACADEMIE WAAR ALLES MOGELIJK IS </p>
-            <div>
-                <button type="button"><span></span>ACTVIVITEIT</button>
-                <button type="button"><span></span>GOED OM TE WETEN</button>
-
-            </div>
-        </div>
-    </div>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Inspiration</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    
+    
+    <p> A simple dropdown navigation menu made with CSS Only. Dropdowns are marked with a plus sign ( + )</p>
+    <p> Resize the screen to see the look if the screen is smaller then 768px </p>
 </body>
-
 </html>

@@ -60,14 +60,6 @@ p {
     display: none;
 }
 
-/* Giving a background-color to the nav container. */
-nav {
-    margin: 0;
-    padding: 0;
-    background-color: #254441;
-
-}
-
 #logo {
     display: block;
     padding: 0 30px;
@@ -101,6 +93,7 @@ nav ul li {
     display: inline-block;
     float: left;
     background-color: #1d7bc9;
+    padding: 5px;
 }
 
 /* Styling the links */
@@ -143,6 +136,14 @@ nav ul ul li {
     display: list-item;
     position: relative;
 }
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(29, 119, 215, 75%), rgba(88, 72, 135, 75%)), url(image/Kopie\ van\ BF8A9DC5-524A-4431-BD42-013446B75604.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 
 /* Second, Third and more Tiers	
  * We move the 2nd and 3rd etc tier dropdowns to the left
@@ -285,8 +286,8 @@ li>a:only-child:after {
 
 body {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	background: #2378da;
+	font-size: 15px;
+	background: #4358a3;
 }
 .clearfix {
 	

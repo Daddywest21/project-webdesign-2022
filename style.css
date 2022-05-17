@@ -230,13 +230,6 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic;
 }
 
-nav {
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background: #222;
-  overflow: none;
-}
 
 nav ul {
   display: inline-block;

@@ -17,3 +17,9 @@
 - stel achtergrond in
 - zorg dat menu hetzelfde is zoals in de excel (kijk naar het <nav> tag om het menu aan te passen, wees voorzichtig en doe ctrl+z als het niet meer werkt)
 - probeer enkel de kleuren aan te passen in nav.css maar niets anders, anders zal je menu kapot gaan
+
+19/05/2022
+- zorg dat alle links werken
+- W3C valid, doe dit eerst
+- padding / witruimte waar nodig
+- tekst bij ateliers is niet leesbaar (grijs) pak een andere keur

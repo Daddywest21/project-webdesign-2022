@@ -4,6 +4,7 @@ figure {
     border: none;
 }
 
+
 figure {
     display: flex;
     width: 100%;
@@ -28,7 +29,7 @@ figure ul {
 }
 
 .info span {
-    display: block;
+    display: inline-block;
     width: 90%;
     min-height: 50px;
     line-height: 50px;
@@ -40,6 +41,13 @@ figure ul {
     font-size: 35px;
 }
 
+.info span{
+border: 4px solid black;
+border-radius: 18px;
+padding: 7px;
+color: black;
+}
+
 .info strong {
     display: block;
     width: 90%;
@@ -49,7 +57,7 @@ figure ul {
     margin: 0 auto;
     font-weight: 400;
     font-style: italic;
-    color: #8c8c8c;
+    color: #ffffff;
     font-size: 15px;
 }
 

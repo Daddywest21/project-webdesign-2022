@@ -23,3 +23,5 @@
 - W3C valid, doe dit eerst
 - padding / witruimte waar nodig
 - tekst bij ateliers is niet leesbaar (grijs) pak een andere keur
+
+- zorg dat links schrijf & en goed om te weten werken op hoofd pagina!

@@ -684,9 +684,9 @@ select option {
 }
 
 .logo {
-  width: ;
-  height: ;
-  border-radius: ;
-  display: flex;
-  
+  width: 10%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 100px;
+  display: flex;justify-content: center;
 }
